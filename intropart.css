@@ -1,0 +1,101 @@
+body {
+    background-color: #CCFFE5;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 100px;
+}
+p{
+    color: black;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 90px;
+}
+#photobg{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    height: 800px;
+    margin-top: 40px;
+    margin-bottom: 40px;   
+}
+.team39{
+    color: black;
+}
+.teamname {
+    margin: 10px;
+}
+table {
+    align-items: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 85%;;
+    margin-bottom: 100px;
+}
+#infotablemembers{
+    text-align: center;
+    font-style: italic;
+}
+th{
+    font-size: 30px;
+}
+
+td, th {
+    border: 1px solid #afa4a4;
+    text-align: center;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+svg{
+    color: black;
+}
+h3{
+    color: black;
+}
+.forvg{
+    visibility: hidden;
+    border: 5px groove white;
+    border-radius: 8px;
+}
+.forls{
+    visibility: hidden;
+    border: 5px groove white;
+    border-radius: 8px;
+}
+.forzg{
+    visibility: hidden;
+    border: 5px groove white;
+    border-radius: 8px;
+}
+.forki{
+    visibility: hidden;
+    border: 5px groove white;
+    border-radius: 8px;
+}
+svg {
+    fill: #87CEEB;
+    width: 100%;
+    border-radius: 8px;
+
+}

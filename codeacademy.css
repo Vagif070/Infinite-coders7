@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+
+body {
+  background: #fff;
+  margin: 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-family: "Lobster", cursive;
+}
+
+.wrapper {
+  animation: scroll 10s linear infinite;
+  overflow: hidden; 
+  background: url("https://static-assets.codecademy.com/assets/course-landing-page/meta/16x9/welcome-to-codecademy.jpg") #111111;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  position: relative;
+}
+
+@keyframes scroll {
+  100% {
+    background-position: 0px -400%;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 800s linear infinite;
+  }
+}
+
+@media (min-width: 670px) {
+  .title {
+    font-size: 5rem;
+  }
+}
+
+button.no-animation {
+  animation: none;
+}
+
+button {
+  width: 300px;
+  height: 55px;
+}
+.container{
+  padding: 5px;
+}
+.speicificp{
+  text-align: center;
+  font-size: 45px;
+  color: rgb(18, 18, 201);
+}

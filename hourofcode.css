@@ -1,0 +1,28 @@
+.eventname{
+    font-size: 55px!important;
+    padding-bottom: 10px;
+    color: #1F89DA;
+    text-align: center;
+    margin-bottom: 25px;
+    background-color: #A0A0A0;
+}
+.container{
+    text-align: center;
+    margin-bottom: 15px;
+}
+img{
+    display: flex;
+}
+p{
+    border: 5px groove #4613D2;
+    border-radius: 8px;
+    margin-right: 675px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.col-md-6float-md-end-mb-3-ms-md-3{
+    width: 600px;
+}
